@@ -1,0 +1,8 @@
+/* Components */
+@import "./Blog/blog.css";
+@import "./About/about-us.css";
+@import "./RelatedPost/related-post.css";
+
+.main {
+  margin-top: 40px;
+}
