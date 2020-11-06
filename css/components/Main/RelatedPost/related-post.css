@@ -8,6 +8,7 @@
   grid-template-columns: minmax(300px, 432px);
   gap: 30px;
   place-content: center;
+  max-width: 1420px;
 }
 
 .related-post h2 {
@@ -46,8 +47,13 @@
   .related-post h2 {
     align-self: flex-start;
   }
+}
 
+@media screen and (min-width: 1620px) {
   .related-post .cards-grid {
-    place-content: flex-start;
+    align-self: center;
+  }
+  .related-post h2 {
+    align-self: center;
   }
 }

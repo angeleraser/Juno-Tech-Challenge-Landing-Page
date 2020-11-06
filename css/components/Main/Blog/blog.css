@@ -50,6 +50,7 @@
   .blog .container {
     flex-direction: row;
     align-items: flex-start;
+    width: auto;
   }
 
   .blog .cards-grid {
@@ -60,5 +61,15 @@
 @media screen and (min-width: 1440px) {
   .blog h2 {
     font-size: 112px;
+  }
+}
+
+@media screen and (min-width: 1620px) {
+  .blog .container {
+    align-self: center;
+  }
+
+  .blog h2 {
+    align-self: center;
   }
 }
