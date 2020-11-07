@@ -43,6 +43,12 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .related-post h2 {
+    font-size: 112px;
+  }
+}
+
 @media screen and (min-width: 1600px) {
   .related-post h2 {
     align-self: flex-start;
@@ -54,6 +60,6 @@
     align-self: center;
   }
   .related-post h2 {
-    align-self: center;
+    margin: 0 0 42px calc(50% - 710px);
   }
 }

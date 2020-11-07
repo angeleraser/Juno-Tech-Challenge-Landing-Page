@@ -70,6 +70,6 @@
   }
 
   .blog h2 {
-    align-self: center;
+    margin: 0 0 42px calc(50% - 710px);
   }
 }
