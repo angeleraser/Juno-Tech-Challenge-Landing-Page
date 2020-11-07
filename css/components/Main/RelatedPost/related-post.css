@@ -17,10 +17,14 @@
   .related-post {
     padding: 56px 88px 118px;
   }
+
+  .related-post .section-heading {
+    align-self: center;
+  }
 }
 
-@media screen and (min-width: 1600px) {
-  .related-post h2 {
+@media screen and (min-width: 1572px) {
+  .related-post .section-heading {
     align-self: flex-start;
   }
 }
