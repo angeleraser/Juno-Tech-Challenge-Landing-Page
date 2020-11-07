@@ -2,9 +2,23 @@
   text-decoration: none;
   display: inline-block;
   font-weight: var(--fw-medium);
+  border: none;
   width: auto;
   padding: 20px;
-  font-size: 20px;
+  font-size: 18px;
+}
+
+.btn.shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.btn.rounded {
+  border-radius: 4px;
+}
+
+.btn-light-orange {
+  color: var(--black);
+  background-color: var(--light-orange);
 }
 
 .btn-orange {

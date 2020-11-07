@@ -1,1 +1,10 @@
 /* Components */
+@import "./JoinMailingList/join-mailing-list.css";
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    position: relative;
+  }
+}

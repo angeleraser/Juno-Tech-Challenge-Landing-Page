@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Juno Tech</title>
+    <script src="https://use.fontawesome.com/a6ac32d224.js"></script>
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
@@ -12,7 +13,7 @@
       <!-- Header -->
       <header class="header container">
         <!-- Navbar -->
-        <nav class="nav-bar">
+        <nav class="nav-bar container">
           <!-- App logo -->
           <a href="index.html" class="logo">
             <img
@@ -53,7 +54,7 @@
       <main class="main container">
         <!-- Blog -->
         <secion class="blog container">
-          <h2>Blog</h2>
+          <h2 class="section-heading">Blog</h2>
           <!-- Content -->
           <div class="container">
             <!-- Blog cards -->
@@ -143,7 +144,7 @@
         </secion>
         <!-- Related post -->
         <section class="related-post container bg-beige">
-          <h2>Related Post:</h2>
+          <h2 class="section-heading">Related Post:</h2>
           <!-- Cards wrapper -->
           <div class="cards-grid">
             <!-- Card small -->
@@ -198,6 +199,43 @@
           </div>
         </section>
       </main>
+      <!-- Footer -->
+      <footer class="footer container bg-orange">
+        <!-- Join our mailing list -->
+        <form class="bg-dark container join-mailing-list">
+          <h3>Join our mailing list</h3>
+          <input type="email" name="email" placeholder="Your email address">
+          <button class="btn btn-light-orange rounded shadow" type="submit">Subscribe</button>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit maecenas.</p>
+          <!-- Social Networks -->
+          <ul class="social-networks">
+            <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a></li>
+          </ul>
+        </form>
+        <nav class="nav-bar container">
+          <a href="index.html" class="logo">
+            <img
+              class="img-fluid"
+              src="./assets/png/Juno-logo-white.png"
+              alt="Juno logo"
+            />
+          </a>
+          <h3>Juno Tech Test</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos voluptatibus magni.</p>
+          <!-- Links -->
+          <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#course">Course</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#allumni">Allumni</a></li>
+            <li><a href="#blog">Blog</a></li>
+          </ul>
+          <span class="copyright">&copy; 2012 - 2019 Juno College of Technology</span>
+        </nav>
+      </footer>
     </div>
   </body>
 </html>

@@ -13,6 +13,9 @@
 /* Card */
 @import "./components/Card/card.css";
 
+/* Navbar */
+@import "./components/Navbar/nav-bar.css";
+
 /* Buttons */
 @import "./components/Buttons/buttons.css";
 

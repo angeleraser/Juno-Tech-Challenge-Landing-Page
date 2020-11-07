@@ -7,7 +7,7 @@
   background-color: var(--orange);
   padding: 26px;
   width: 100%;
-  margin-top: -16px;
+  margin-top: -6px;
   align-self: flex-end;
   max-width: 1114px;
 }
@@ -32,6 +32,7 @@
   .banner__heading {
     padding: 26px 56px;
   }
+
   .banner__heading h1 {
     font-size: 72px;
   }
