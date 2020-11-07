@@ -3,10 +3,6 @@
 @import "./About/about-us.css";
 @import "./RelatedPost/related-post.css";
 
-.main {
-  margin-top: 40px;
-}
-
 @media screen and (min-width: 1440px) {
   .main {
     margin-top: 90px;

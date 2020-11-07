@@ -4,6 +4,7 @@
   font-family: var(--ff-montserrat);
   width: 100%;
   max-width: 432px;
+  min-height: 734px;
 }
 
 .about__info {

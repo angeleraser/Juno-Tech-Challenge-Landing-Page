@@ -2,7 +2,7 @@
   padding: 56px 26px;
 }
 
-.blog .container {
+.blog .wrapper {
   align-items: center;
 }
 
@@ -27,7 +27,7 @@
     padding: 56px 88px;
   }
 
-  .blog .container {
+  .blog .wrapper {
     flex-direction: row;
     align-items: flex-start;
     width: auto;
@@ -39,7 +39,7 @@
 }
 
 @media screen and (min-width: 1620px) {
-  .blog .container {
+  .blog .wrapper {
     align-self: center;
   }
 }

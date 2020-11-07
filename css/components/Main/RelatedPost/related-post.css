@@ -23,6 +23,16 @@
   }
 }
 
+@media screen and (min-width: 1320px) {
+  .related-post .cards-grid {
+    grid-template-columns: repeat(3, minmax(330px, 432px));
+  }
+
+  .related-post .section-heading {
+    align-self: flex-start;
+  }
+}
+
 @media screen and (min-width: 1572px) {
   .related-post .section-heading {
     align-self: flex-start;

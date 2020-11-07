@@ -4,8 +4,14 @@
   font-weight: var(--fw-medium);
   border: none;
   width: auto;
+  cursor: pointer;
   padding: 20px;
   font-size: 18px;
+  border: 1px solid transparent;
+}
+
+.btn:focus {
+  outline:none;
 }
 
 .btn.shadow {
@@ -21,15 +27,19 @@
   background-color: var(--light-orange);
 }
 
-.btn-orange {
+.btn-orange,
+.btn-light-orange:hover,
+.btn-white:hover {
+  border-color: transparent;
   color: var(--white);
   background-color: var(--orange);
 }
 
-.btn-white {
+.btn-white,
+.btn-orange:hover {
   color: var(--dark-gray);
   background-color: var(--white);
-  border: 1px solid var(--orange);
+  border-color: var(--orange);
 }
 
 @media screen and (min-width: 600) {

@@ -3,6 +3,14 @@
   padding: 26px;
 }
 
+.nav-bar .logo {
+  max-width: 220px;
+}
+
+.header .logo {
+  align-self: center;
+}
+
 .nav-bar ul {
   display: flex;
   width: 100%;
@@ -42,6 +50,7 @@
 
 .nav-bar p {
   line-height: 1.7;
+  font-size: 14px;
 }
 
 .footer .nav-bar a {
@@ -89,8 +98,16 @@
     padding: 56px;
   }
 
+  .nav-bar .logo {
+    max-width: 100%;
+  }
+
   .nav-bar h3 {
     font-size: 30px;
+  }
+
+  .nav-bar p {
+    font-size: 16px;
   }
 
   .nav-bar .copyright {
