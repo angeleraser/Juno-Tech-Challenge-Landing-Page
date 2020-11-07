@@ -99,7 +99,8 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .nav-bar {
+  .nav-bar,
+  .footer .nav-bar {
     padding: 56px 90px 30px;
   }
 

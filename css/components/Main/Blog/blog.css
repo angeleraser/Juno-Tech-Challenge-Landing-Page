@@ -1,5 +1,5 @@
 .blog {
-  padding: 26px;
+  padding: 56px 26px;
 }
 
 .blog .container {
@@ -14,10 +14,6 @@
 @media screen and (min-width: 768px) {
   .blog {
     padding: 56px;
-  }
-
-  .blog .section-heading {
-    align-self: flex-start;
   }
 
   .blog .cards-grid {

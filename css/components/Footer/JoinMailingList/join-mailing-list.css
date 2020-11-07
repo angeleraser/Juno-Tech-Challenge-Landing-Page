@@ -66,12 +66,18 @@
     max-width: 552px;
     position: absolute;
     bottom: 0;
-    right: 88px;
+    right: 56px;
     padding: 100px 72px 18px;
   }
 
   .join-mailing-list h3 {
     font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .join-mailing-list {
+    right: 88px;
   }
 }
 
