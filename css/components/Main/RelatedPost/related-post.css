@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (min-width: 1320px) {
+@media screen and (min-width: 1280px) {
   .related-post .cards-grid {
     grid-template-columns: repeat(3, minmax(330px, 432px));
   }
