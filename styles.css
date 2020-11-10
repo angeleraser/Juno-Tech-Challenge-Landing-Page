@@ -893,7 +893,7 @@ html {
   }
 }
 
-@media (min-width: 1140px) {
+@media (min-width: 1200px) {
   .join-mailing-list {
     max-width: 552px;
     position: absolute;
@@ -903,7 +903,7 @@ html {
   }
 
   .join-mailing-list h3 {
-    font-size: 30px;
+    font-size: 34px;
   }
 }
 
@@ -919,7 +919,7 @@ html {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .footer {
     flex-direction: row-reverse;
     justify-content: flex-end;
