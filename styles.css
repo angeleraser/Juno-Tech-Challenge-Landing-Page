@@ -374,6 +374,7 @@ html {
 /* --- Navbar styles --- */
 .nav-bar {
   padding: 26px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .nav-bar .logo {
@@ -395,6 +396,7 @@ html {
 
 .nav-bar a {
   text-decoration: none;
+  font-weight: 500;
   color: #4a455c;
 }
 
@@ -406,6 +408,7 @@ html {
 
 .nav-bar h3 {
   font-size: 24px;
+  font-weight: 500;
   margin: 18px 0 12px;
 }
 
@@ -465,7 +468,7 @@ html {
   }
 
   .nav-bar h3 {
-    font-size: 30px;
+    font-size: 34px;
   }
 
   .nav-bar p,
@@ -893,6 +896,16 @@ html {
   }
 }
 
+@media (min-width:1024px){
+  .join-mailing-list h3 {
+    font-size: 34px;
+  }
+
+  .join-mailing-list p {
+    font-size: 20px;
+  }
+}
+
 @media (min-width: 1200px) {
   .join-mailing-list {
     max-width: 552px;
@@ -900,10 +913,6 @@ html {
     bottom: 0;
     right: 56px;
     padding: 100px 72px 18px;
-  }
-
-  .join-mailing-list h3 {
-    font-size: 34px;
   }
 }
 
