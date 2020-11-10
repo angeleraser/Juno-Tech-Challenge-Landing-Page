@@ -472,16 +472,16 @@ html {
   .nav-bar .copyright {
     font-size: 16px;
   }
+
+  .nav-bar ul a {
+    font-size: 24px;
+  }
 }
 
 @media (min-width: 1440px) {
   .header .nav-bar,
   .footer .nav-bar {
     padding: 56px 90px 30px;
-  }
-
-  .nav-bar ul a {
-    font-size: 24px;
   }
 }
 
