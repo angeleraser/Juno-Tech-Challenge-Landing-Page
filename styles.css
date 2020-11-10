@@ -570,7 +570,7 @@ html {
   background-color: #ffffff;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1540px) {
   .card h3 {
     font-size: 46px;
   }
@@ -746,7 +746,7 @@ html {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1540px) {
   .about-us h3 {
     font-size: 46px;
   }
@@ -778,13 +778,13 @@ html {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1042px) {
   .related-post .cards-wrapper {
     flex-direction: row;
   }
 
   .related-post .card:nth-child(2) {
-    margin-left: 50px;
+    margin: 0 0 0 50px;
   }
 
   .related-post .card:nth-child(3) {
