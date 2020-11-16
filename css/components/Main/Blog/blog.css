@@ -1,0 +1,45 @@
+.blog {
+  padding: 56px 26px;
+}
+
+.blog .wrapper {
+  align-items: center;
+}
+
+.blog .cards-grid {
+  max-width: 928px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .blog {
+    padding: 56px;
+  }
+
+  .blog .cards-grid {
+    margin-bottom: 50px;
+    grid-template-columns: repeat(2, minmax(330px, 432px));
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .blog {
+    padding: 56px 88px;
+  }
+
+  .blog .wrapper {
+    flex-direction: row;
+    align-items: flex-start;
+    width: auto;
+  }
+
+  .blog .cards-grid {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1620px) {
+  .blog .wrapper {
+    align-self: center;
+  }
+}

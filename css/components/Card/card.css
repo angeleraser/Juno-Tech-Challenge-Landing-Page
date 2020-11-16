@@ -1,0 +1,74 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.card .card__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: var(--ff-montserrat);
+  margin-top: -2px;
+  padding: 50px 34px;
+}
+
+.card .img-fluid {
+  object-fit: cover;
+}
+
+.card .card__info > *:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.card h3,
+.card p {
+  margin: 0;
+}
+
+.card h3 {
+  font-size: 32px;
+}
+
+.card p,
+.card span {
+  font-size: 20px;
+  font-weight: var(--fw-regular);
+  line-height: 1.7;
+}
+
+/* Card dark */
+.card.bg-dark p,
+.card.bg-dark span {
+  color: var(--white);
+}
+
+.card.bg-dark h3 {
+  color: var(--white);
+  font-weight: var(--fw-medium);
+}
+
+.card.bg-dark .card__info {
+  background-color: var(--dark-gray);
+}
+
+/* Card white  */
+.card.bg-white h3 {
+  color: var(--orange);
+}
+
+.card.bg-white p,
+.card.bg-white span {
+  color: var(--dark-gray);
+}
+
+.card.bg-white .card__info {
+  background-color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+  .card.large {
+    grid-column: span 2;
+  }
+}

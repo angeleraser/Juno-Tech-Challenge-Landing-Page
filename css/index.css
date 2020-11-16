@@ -1,0 +1,29 @@
+/* --- Base styles --- */
+@import "./base/styles.css";
+@import "./base/settings.css";
+
+/* --- Fonts --- */
+@import "./fonts/fonts.css";
+
+/* --- Utils --- */
+@import "./utils/utils.css";
+
+/* --- Components --- */
+
+/* Card */
+@import "./components/Card/card.css";
+
+/* Navbar */
+@import "./components/Navbar/nav-bar.css";
+
+/* Buttons */
+@import "./components/Buttons/buttons.css";
+
+/* Header */
+@import "./components/Header/header.css";
+
+/* Main */
+@import "./components/Main/main.css";
+
+/* Footer */
+@import "./components/Footer/footer.css";
